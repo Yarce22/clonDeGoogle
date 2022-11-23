@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: #000;
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img {
+    width: 300px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon {
+    background-image: url('data:image/png;base64,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');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin: 0 15px 0 10px;
+}
+
+main .main-input .micro-icon {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/3128/3128290.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 15px;
+    cursor: pointer;
+}
+
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div {
+    display: inline-block;
+}
+
+main .main-buttons button {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 0;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+main .main-buttons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #ffffff;
+    color: #222;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left {
+    justify-self: left;
+}
+
+footer .footer-right {
+    justify-self: right;
+}
+
+footer ul li a {
+    margin: 10px;
+    color: #5f6368
+}
